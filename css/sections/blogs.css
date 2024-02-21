@@ -10,6 +10,11 @@
 	margin-bottom: 3rem;
 }
 
+.blogs-heading h1 {
+	font-size: 2rem;
+	font-weight: 500;
+}
+
 .blogs-grid {
 	display: grid;
 	grid-template-rows: 1fr 1fr;

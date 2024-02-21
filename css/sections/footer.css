@@ -8,13 +8,6 @@
 	padding: 10rem 15rem 5rem 15rem;
 }
 
-.footer h1,
-p,
-span,
-li {
-	color: white;
-}
-
 .footer-content {
 	width: 100%;
 	position: relative;
@@ -36,11 +29,13 @@ li {
 .footer-subscribe h1 {
 	font-size: 2rem;
 	font-weight: 600;
+	color: white;
 }
 
 .footer-subscribe p {
 	font-size: 1rem;
 	font-weight: 400;
+	color: white;
 }
 
 .footer-subscribe-input input {
@@ -50,6 +45,7 @@ li {
 	border: 1px solid white;
 	border-radius: 0.625rem;
 	padding: 0.5rem 1.5rem;
+	color: white;
 }
 
 .footer-subscribe-input input::placeholder {
@@ -84,6 +80,10 @@ li {
 	border: 1px solid #fff;
 }
 
+.footer-subscribe > button span {
+	color: white;
+}
+
 /* Linebreak */
 .footer-linebreak {
 	width: 100%;
@@ -104,9 +104,14 @@ li {
 	width: 50%;
 }
 
+.footer-left .left-logo h1 {
+	color: white;
+}
+
 .footer-left p {
 	margin: 2rem 0;
 	width: 75%;
+	color: white;
 }
 
 .left-socials {
@@ -160,6 +165,7 @@ li {
 	font-size: 1.5rem;
 	text-transform: uppercase;
 	font-weight: 700;
+	color: white;
 }
 
 .grid-category ul {
@@ -171,4 +177,5 @@ li {
 	font-size: 1rem;
 	font-weight: 400;
 	margin-bottom: 1rem;
+	color: white;
 }

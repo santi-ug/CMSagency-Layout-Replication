@@ -1,5 +1,5 @@
 .testimonials {
-	margin-bottom: 6rem;
+	margin-bottom: 3rem;
 }
 
 .testimonials .clients-bg {
@@ -23,7 +23,7 @@
 	width: 33rem;
 }
 
-.testimonials-subheading p {
+.testimonials p {
 	font-size: 1rem;
 	font-weight: 400;
 	color: var(--small-gray);

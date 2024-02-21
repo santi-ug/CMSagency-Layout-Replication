@@ -13,6 +13,7 @@
 @import url(./sections/testimonials.css);
 @import url(./sections/blogs.css);
 @import url(./sections/footer.css);
+@import url(./sections/copyright.css);
 
 :root {
 	--poppins: "Poppins", sans-serif;
