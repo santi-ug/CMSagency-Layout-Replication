@@ -1,0 +1,231 @@
+.services {
+	margin: 10rem 15rem 4rem 15rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* Header */
+.services-header {
+	height: 4.1rem;
+}
+
+.services-header h1 {
+	font-size: 2.125rem;
+	font-weight: 700;
+}
+
+.services-header img {
+	transform: translateX(14.75rem) translateY(-0.6rem);
+}
+
+/* Subheading */
+.services p {
+	font-size: 1rem;
+	font-weight: 400;
+	color: black;
+	text-align: center;
+}
+
+/* Buttons */
+.services-buttons {
+	margin-top: 1.4rem;
+	margin-bottom: 2.7rem;
+	display: flex;
+	gap: 1.8rem;
+}
+
+.services-buttons button {
+	padding: 0.75rem 1.5rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 1rem;
+	font-weight: 400;
+	border-radius: 0.5rem;
+	margin-top: 0.8rem;
+}
+
+.services-buttons .button-monthly {
+	background: var(--primary-green);
+}
+
+.services-buttons .button-monthly span {
+	color: white;
+	font-weight: 400;
+}
+
+.services-buttons .button-yearly {
+	background: white;
+	border: 1px solid black;
+}
+
+.services-buttons .button-yearly span {
+	color: black;
+	font-weight: 400;
+}
+
+/* Cards */
+.services-cards {
+	display: flex;
+	gap: 3rem;
+}
+
+.service-card {
+	width: 23.8125rem;
+	height: 28.5625rem;
+	filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));
+	/* overflow: hidden; */
+}
+
+.service-card > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.service-card-body {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	padding: 2.4rem 3.9rem;
+}
+
+.service-card-body h1 {
+	font-size: 1.75rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.service-card-body .card-price {
+	display: flex;
+	align-items: center;
+	gap: 0.31rem;
+	margin-top: 0.4rem;
+}
+
+.service-card-body .card-price h2 {
+	font-size: 2.25rem;
+	font-weight: 700;
+	margin-bottom: 0.15rem;
+}
+
+.service-card-body .card-price small {
+	font-size: 1rem;
+	font-weight: 400;
+	color: var(--small-gray);
+}
+
+.service-card-body .card-benefits {
+	margin: 0.4rem 0 1.8rem 0.2rem;
+}
+
+.card-benefits .benefit-point {
+	display: flex;
+	align-items: center;
+	gap: 0.69rem;
+	margin-bottom: 0.44rem;
+}
+
+.card-benefits .benefit-point span {
+	color: black;
+}
+
+.service-card-body button {
+	background: var(--primary-green);
+	padding: 0.75rem 1.5rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 1rem;
+	font-weight: 400;
+	border-radius: 0.5rem;
+	margin-top: 0.8rem;
+}
+
+.service-card-body button span {
+	color: white;
+}
+
+/* Middle Card */
+.service-card-middle {
+	width: 23.8125rem;
+	height: 28.5625rem;
+	filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));
+	/* overflow: hidden; */
+}
+
+.service-card-middle > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.service-card-body-middle {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	padding: 2.4rem 3.9rem;
+}
+
+.service-card-body-middle h1 {
+	font-size: 1.75rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: white;
+}
+
+.service-card-body-middle .card-price {
+	display: flex;
+	align-items: center;
+	gap: 0.31rem;
+	margin-top: 0.4rem;
+}
+
+.service-card-body-middle .card-price h2 {
+	font-size: 2.25rem;
+	font-weight: 700;
+	margin-bottom: 0.15rem;
+	color: white;
+}
+
+.service-card-body-middle .card-price small {
+	font-size: 1rem;
+	font-weight: 400;
+	color: white;
+}
+
+.service-card-body-middle .card-benefits {
+	margin: 0.4rem 0 1.8rem 0.2rem;
+}
+
+.card-benefits .benefit-point {
+	display: flex;
+	align-items: center;
+	gap: 0.69rem;
+	margin-bottom: 0.44rem;
+}
+
+.service-card-body-middle .card-benefits .benefit-point span {
+	color: white;
+}
+
+.service-card-body-middle button {
+	background: var(--primary-navyblue);
+	padding: 0.75rem 1.5rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 1rem;
+	font-weight: 400;
+	border-radius: 0.5rem;
+	margin-top: 0.8rem;
+}
+
+.service-card-body-middle button span {
+	color: white;
+}

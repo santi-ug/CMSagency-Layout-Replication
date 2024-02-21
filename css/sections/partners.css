@@ -1,0 +1,36 @@
+.partners {
+	margin: 2rem 14rem;
+}
+
+/* Heading */
+.partners-heading {
+	display: flex;
+	align-items: center;
+	gap: 0.47rem;
+}
+
+.partners-heading h1 {
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+/* Logos */
+.partners-logos {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5rem;
+	transform: translateY(-1.5rem);
+}
+
+.partners-logos .visa-partner-logo {
+	transform: translateY(-0.1rem);
+}
+
+.partners-logos .prime-partner-logo {
+	transform: translateY(0.85rem);
+}
+
+.partners-logos .mysql-partner-logo {
+	transform: translateY(-1.25rem);
+}

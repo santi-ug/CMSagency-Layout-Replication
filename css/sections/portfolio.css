@@ -1,0 +1,40 @@
+.portfolio {
+	margin: 10rem 15rem 4rem 15rem;
+}
+
+.portfolio-heading {
+	display: flex;
+	align-items: center;
+	gap: 0.47rem;
+	margin-bottom: 2.2rem;
+}
+
+.portfolio-heading h1 {
+	font-size: 2rem;
+	font-weight: 500;
+}
+
+/* Grid */
+.portfolio-grid {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1.75rem;
+}
+
+.portfolio-grid-card {
+	display: flex;
+	flex-direction: column;
+}
+
+.portfolio-grid-card small {
+	font-size: 1.25rem;
+	font-weight: 400;
+	color: #7b7b7b;
+}
+
+.portfolio-grid-card h2 {
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-top: 0.12rem;
+}

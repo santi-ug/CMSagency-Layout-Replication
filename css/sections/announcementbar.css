@@ -1,0 +1,50 @@
+.announcementbar {
+    display: flex;
+    justify-content: space-between;
+    background: var(--primary-navyblue);
+    font-size: .75rem;
+    margin-bottom: .1rem;
+}
+
+.announcementbar span {
+    color: white;
+    font-weight: 300;
+}
+
+.announcement-left {
+    padding-left: 7.625rem;
+}
+
+.announcement-left ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0.4375rem 0;
+    list-style-type: none;
+}
+
+.announcement-left ul li {
+    display: flex;
+    align-items: center;
+}
+
+.announcement-left ul li img {
+    padding-right: 0.4375rem;
+}
+
+.announcement-right {
+    display: flex;
+    font-size: 1rem;
+    padding-right: 7.4025rem;
+    align-items: center;
+}
+
+.announcement-right img {
+    padding-right: 0.3125rem;
+}
+
+.announcement-right .announcement-right-downarrow {
+    padding-right: .375rem;
+    padding-left: .3125rem;
+    padding-bottom: .8rem;
+}

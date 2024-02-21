@@ -1,0 +1,44 @@
+.learnmore {
+	display: flex;
+	margin: 4rem 15rem;
+	gap: 3rem;
+}
+
+.learn-left {
+	width: 100%;
+}
+
+.learn-left img {
+	width: 100%;
+}
+
+.learn-right {
+	width: 90%;
+}
+
+.learn-right h1 {
+	font-size: 2rem;
+	font-weight: 600;
+	margin: 1.5rem 0;
+}
+
+.learn-right p {
+	font-size: 1rem;
+	font-weight: 400;
+	margin: 1.5rem 0;
+}
+
+.learn-right button {
+	background: var(--primary-green);
+	padding: 1rem 2rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 1rem;
+	font-weight: 400;
+	border-radius: 0.5rem;
+}
+
+.learn-right button span {
+	color: white;
+}
