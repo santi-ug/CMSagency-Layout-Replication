@@ -1,0 +1,10 @@
+.copyright {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1.5rem 0;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: 400;
+	color: black;
+	background: #d9d9d9;
+}
